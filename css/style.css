@@ -52,24 +52,24 @@ header ul li a {
     justify-content: space-between;
     align-items: center;
 }
-.content .textbox {
+.content .textBox {
     position: relative;
     max-width: 600px;
 }
-.content .textbox h2 {
+.content .textBox h2 {
     color: #fff;
     font-size: 4em;
     line-height: 1.5em;
     font-weight: 900;
     text-transform: uppercase;
 }
-.content .textbox h2 span {
+.content .textBox h2 span {
     font-size: 2em;
 }
-.content .textbox p {
+.content .textBox p {
     color: #fff;
 }
-.content .textbox a {
+.content .textBox a {
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
@@ -81,14 +81,14 @@ header ul li a {
     text-decoration: none;
     text-transform: uppercase;
 }
-.content .imgbox {
+.content .imgBox {
     width: 600px;
     display: flex;
     padding-right: 50px;
     margin-top: 50px;
     justify-content: flex-end;
 }
-.content .imgbox img {
+.content .imgBox img {
     max-width: 260px;
 }
 .thumb{
@@ -103,7 +103,7 @@ header ul li a {
     display: inline-block;
     margin: 0 20px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .thumb li:hover {
     transform: translateY(-15px);
