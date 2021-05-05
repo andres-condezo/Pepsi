@@ -1,53 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pepsi Website Landing Page</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    
-<section class="sec">
-    <header>
-        <a href="#"><img src="images/logo.png" alt="logo Pepsi" class="logo" ></a>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="sec">
+      <header>
+        <a href="#"
+          ><img src="images/logo.png" alt="logo Pepsi" class="logo"
+        /></a>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">What's New</a></li>
-            <li><a href="#">Newsletter</a></li>
-            <li><a href="#">Contacts</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Contacts</a></li>
         </ul>
-    </header>
-    <div class="content">
+      </header>
+      <div class="content">
         <div class="textBox">
-            <h2>That's what <br> <span> I like</span> </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fuga eligendi aliquid, dolorem dolorum recusandae? Eaque nisi, minima aut fugiat autem voluptate, quasi sit provident consequuntur, eligendi tenetur impedit cupiditate.</p>
-            <a href="#">View all products</a>
+          <h2>
+            That's what <br />
+            <span> I like</span>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet 3 consectetur adipisicing elit. Amet fuga
+            eligendi aliquid, dolorem dolorum recusandae? Eaque nisi, minima aut
+            fugiat autem voluptate, quasi sit provident consequuntur, eligendi
+            tenetur impedit cupiditate.
+          </p>
+          <a href="#">View all products</a>
         </div>
         <div class="imgBox">
-            <img src="images/pepsi001.png" alt="lata de pepsi" class="pepsi">
+          <img src="images/pepsi001.png" alt="lata de pepsi" class="pepsi" />
         </div>
-    </div>
-    <ul class="thumb">
-        <li><img src="images/pepsi001.png" onclick="imgSlider('images/pepsi001.png'); changeBgColor('#0062be')" alt="blue pepsi"></li>
-        <li><img src="images/pepsi002.png" onclick="imgSlider('images/pepsi002.png'); changeBgColor('#e60c2c')" alt="silver pepsi"></li>
-        <li><img src="images/pepsi003.png" onclick="imgSlider('images/pepsi003.png'); changeBgColor('#1e1e1e')" alt="black pepsi"></li>
-    </ul>
-    <ul class="sci">
-        <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
-        <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
-        <li><a href="#"><img src="images/instagram.png" alt=""></a></li>
-    </ul>
-    <script type="text/javascript" >
-    function imgSlider(anything){
-        document.querySelector('.pepsi').src = anything;
-    }
-    function changeBgColor(color){
-        const sec = document.querySelector('.sec');
-        sec.style.background = color;
-    }
-    </script>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="images/pepsi001.png"
+            onclick="imgSlider('images/pepsi001.png'); changeBgColor('#0062be')"
+            alt="blue pepsi"
+          />
+        </li>
+        <li>
+          <img
+            src="images/pepsi002.png"
+            onclick="imgSlider('images/pepsi002.png'); changeBgColor('#e60c2c')"
+            alt="silver pepsi"
+          />
+        </li>
+        <li>
+          <img
+            src="images/pepsi003.png"
+            onclick="imgSlider('images/pepsi003.png'); changeBgColor('#1e1e1e')"
+            alt="black pepsi"
+          />
+        </li>
+      </ul>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="images/facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/twitter.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/instagram.png" alt="" /></a>
+        </li>
+      </ul>
+      <script type="text/javascript">
+        function imgSlider(anything) {
+          document.querySelector(".pepsi").src = anything;
+        }
+        function changeBgColor(color) {
+          const sec = document.querySelector(".sec");
+          sec.style.background = color;
+        }
+      </script>
     </section>
-</body>
+  </body>
 </html>
